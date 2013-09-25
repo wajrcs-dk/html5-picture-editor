@@ -1,4 +1,4 @@
-html5-image-editor
+HTML5 Picture Editor
 ==================
 
-HTML5 image editor made with Fabric and Twitter bootstrap
+HTML5 picture editor made with Fabric and Twitter bootstrap
