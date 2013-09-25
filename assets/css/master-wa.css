@@ -1,0 +1,218 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+/**
+ * @author Waqar Alamgir <waqarcs@yahoo.com>
+ */
+/* line 9, ../scss/master-wa.scss */
+body {
+  font-family: "Open Sans", sans-serif !important;
+  margin: 0;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  color: #333;
+  background: #fff;
+}
+
+/* line 10, ../scss/master-wa.scss */
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+/* line 11, ../scss/master-wa.scss */
+h3, h4 {
+  margin-top: 1.5em !important;
+}
+
+/* line 12, ../scss/master-wa.scss */
+label {
+  display: inline-block;
+  margin-right: 8px;
+  width: 150px;
+}
+
+/* line 13, ../scss/master-wa.scss */
+textarea {
+  font-family: monospace;
+}
+
+/* line 14, ../scss/master-wa.scss */
+input[type=color] {
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  position: relative;
+  top: 2px;
+}
+
+/* line 15, ../scss/master-wa.scss */
+input[type=radio] {
+  margin-top: -3px;
+}
+
+/* line 18, ../scss/master-wa.scss */
+body #header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* line 19, ../scss/master-wa.scss */
+body #wrapper {
+  height: 100%;
+  width: 100%;
+}
+/* line 20, ../scss/master-wa.scss */
+body #content {
+  width: auto !important;
+  margin: 0;
+  height: auto !important;
+  position: absolute;
+  top: 71px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+/* line 21, ../scss/master-wa.scss */
+body #content strong {
+  font-size: 14px;
+}
+/* line 22, ../scss/master-wa.scss */
+body #content .mainWindow {
+  font-size: 12px;
+}
+
+/* line 26, ../scss/master-wa.scss */
+body {
+  position: absolute;
+  top: 10px;
+  left: 38px;
+  bottom: 10px;
+  right: 10px;
+  overflow: hidden;
+}
+/* line 27, ../scss/master-wa.scss */
+body .mainWindow {
+  min-width: 1200px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: auto;
+}
+/* line 28, ../scss/master-wa.scss */
+body .canvasWindow {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  bottom: 45px;
+  width: 49%;
+  margin-right: 1%;
+  overflow: hidden;
+}
+/* line 29, ../scss/master-wa.scss */
+body .canvasWindow #complexity strong {
+  background: #5BB75B;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 0px 5px;
+  color: #fff;
+  font-weight: normal;
+}
+/* line 30, ../scss/master-wa.scss */
+body .canvasWindow .buttons-positions {
+  margin-top: 10px;
+  float: left;
+  clear: both;
+}
+/* line 31, ../scss/master-wa.scss */
+body .canvasWindow #loader {
+  display: none;
+  margin-left: 10px;
+}
+/* line 32, ../scss/master-wa.scss */
+body .canvasWindow #loader.show {
+  display: inline-block;
+}
+/* line 34, ../scss/master-wa.scss */
+body .controlsWindow {
+  position: absolute;
+  top: 54px;
+  left: 50%;
+  bottom: 45px;
+  width: 49%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/* line 35, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild {
+  position: absolute;
+  left: 0;
+  right: 18px;
+  top: 0;
+  height: auto;
+}
+/* line 36, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild .nav {
+  margin-bottom: 0;
+}
+/* line 37, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild .tab-content {
+  padding: 20px 12px 12px 12px;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  -ms-border-radius: 0 0 4px 4px;
+  -o-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+/* line 38, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild textarea {
+  resize: none;
+}
+/* line 39, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild input, body .controlsWindow .controlsWindowChild textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 40, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild i {
+  font-size: 12px;
+}
+/* line 41, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild .image_url_p .last {
+  margin-bottom: 0;
+}
+/* line 42, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild .image_url_p i {
+  margin-bottom: 10px;
+  margin-top: 3px;
+  display: block;
+}
+/* line 43, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild #text-wrapper {
+  display: none;
+}
+/* line 44, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild #text-wrapper textarea {
+  text-align: left;
+}
+/* line 46, ../scss/master-wa.scss */
+body .controlsWindow .controlsWindowChild button.selected {
+  font-weight: bold;
+  vertical-align: top;
+}
+/* line 50, ../scss/master-wa.scss */
+body .canvas-container {
+  margin-top: 20px !important;
+  border: 1px solid #ddd;
+}
+/* line 51, ../scss/master-wa.scss */
+body .about {
+  position: absolute;
+  width: 100%;
+  bottom: 12px;
+  text-align: center;
+}
