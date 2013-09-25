@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- @Author Waqar Alamgir <waqarcs@yahoo.com> -->
 <head>
 	<meta charset="utf-8">
 	<title>Picture Editor - HTML5</title>
@@ -257,7 +258,7 @@ var SITE_URL_APPLICATION = '';
 	</form>
 	
 	<div class="about">
-		Built using fabric.js, jquery and bootstrap by <a target="_blank" href="http://twitter.com/waqar_alamgir">@waqaralamgir</a>.
+		Built using fabric.js, jquery and bootstrap by <a target="_blank" href="http://twitter.com/waqar_alamgir">@waqaralamgir</a> &nbsp;.&nbsp; <a href="https://github.com/waqar-alamgir/html5-picture-editor/fork">Fork</a> &nbsp;.&nbsp; <iframe width="95px" scrolling="0" height="21px" frameborder="0" allowtransparency="true" style="margin-bottom:-6px;" src="http://ghbtns.com/github-btn.html?user=waqar-alamgir&amp;repo=html5-picture-editor&amp;type=watch&amp;count=true"></iframe>
 	</div>
 	
 </div>

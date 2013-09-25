@@ -2,9 +2,9 @@
 /**
  * Class for all kind for event binding for Pet's commands and controls
  * 
- * @Author WaqarAlamgir <walamgir@folio3.com>
+ * @Author Waqar Alamgir <waqarcs@yahoo.com>
  * @Created 23 Sep 2013
- * @Modified 23 Sep 2013
+ * @Modified 25 Sep 2013
  *
  */
 
