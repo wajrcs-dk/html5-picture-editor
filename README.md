@@ -4,7 +4,7 @@ HTML5 Picture Editor
 HTML5 picture editor made with Fabric and Twitter bootstrap
 
 ## Demo
-[Link](http://www.waqaralamgir.com/html5-picture-editor)
+[Link](http://www.waqaralamgir.com/app/html5-picture-editor)
 
 ## Credits
 
