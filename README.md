@@ -21,10 +21,10 @@ Follow this URL to see working demo:
 
 
 ## Developer Resources
-Check out the URLs bellow to find out how its done:
-[fabric.js](http://fabricjs.com/)
-[jQuery](http://jquery.com/)
-[Twitter bootstrap](http://getbootstrap.com/2.3.2/)
+Check out the URLs bellow to find out how its done:<br/>
+[fabric.js](http://fabricjs.com/)<br/>
+[jQuery](http://jquery.com/)<br/>
+[Twitter bootstrap](http://getbootstrap.com/2.3.2/)<br/>
 
 
 ## Kick Starter (for developers)
