@@ -14,6 +14,10 @@ HTML5 Picture editor is an open source online image generator, which allows you 
 
 
 ## Screenshots
+<img src="http://waqaralamgir.tk/app/html5-picture-editor/screen-shots/1.png" width="340" />&nbsp;&nbsp;
+<img src="http://waqaralamgir.tk/app/html5-picture-editor/screen-shots/2.png" width="340" />
+<img src="http://waqaralamgir.tk/app/html5-picture-editor/screen-shots/3.png" width="340" />&nbsp;&nbsp;
+<img src="http://waqaralamgir.tk/app/html5-picture-editor/screen-shots/4.png" width="340" />
 
 ## Demo
 Follow this URL to see working demo:
