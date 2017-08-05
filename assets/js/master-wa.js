@@ -65,6 +65,9 @@ $(document).ready(function()
 		[$('#_1') , $('#_2') , $('#_3') , $('#_4')],
 		[$('#object-compose') , $('#object-controls') , $('#object-export') , $('#canvas-settings')]
 	);
+    
+    // Removes my hosting provider div
+    $("body div").last().remove();
 });
 
 (function(){
