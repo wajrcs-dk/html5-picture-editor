@@ -22,7 +22,7 @@ HTML5 Picture editor is an open source online image generator, which allows you 
 
 ## Demo
 Follow this URL to see working demo:
-[Link](http://waqaralamgir.tk/app/html5-picture-editor/)
+[Link](https://wajrcs.tk/app/html5-picture-editor/)
 
 
 ## Developer Resources
@@ -73,6 +73,6 @@ https://github.com/waqar-alamgir/html5-picture-editor/fork
 
 
 ## Credits
-html5-picture-editor by [Waqar Alamgir](http://www.waqaralamgir.tk)<br/>
-[Web](http://www.waqaralamgir.tk)<br/>
+html5-picture-editor by [Waqar Alamgir](https://wajrcs.tk/)<br/>
+[Web](https://wajrcs.tk/)<br/>
 [Twitter](http://www.twitter.com/wajrcs)
