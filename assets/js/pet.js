@@ -95,11 +95,16 @@ Pet = function()
 	var _fontFamily = $('#font-family');
 	var _imageUrl = $('#image_url');
 	var _text = $('#text');
+	var _canvasWindow = $('.canvasWindow');
+	var _canvasDom = $('#canvas');
 	var _originX = $('.origin-x');
 	var _originY = $('.origin-y');
 	var _complexity = $('#complexity strong');
 	var _loadDraft = $('#load-draft');
+	var _uploadImagePreview = $('#upload_image_preview');
+	var _uploadImage = $("#upload_image");
 	var _addImageBtn = 'add_image_btn';
+	var _uploadImageBtn = 'upload_image_btn';
 	var _addTextBtn = 'add_text_btn';
 	var _downloadFileForm = $('#downloadFileForm');
 	var _fileData = $('#file_data');
@@ -129,6 +134,8 @@ Pet = function()
 	var _change = 'change';
 	var _focus = 'focus';
 	var _keyup = 'keyup';
+	_canvasDom.attr('width', parseInt(_canvasWindow.css('width'))-2);
+	_canvasDom.attr('height', parseInt($(window).height())-188);
 	var _canvas = new fabric.Canvas(_canvasEle);
 	var _getRandomInt = fabric.util.getRandomInt;
 	
@@ -145,7 +152,7 @@ Pet = function()
 			alert(MESSAGES[0]);
 			return;
 		}
-		
+
 		if(config && config.canvasWidth)
 		{
 			_canvasWidth = config.canvasWidth;
@@ -202,9 +209,33 @@ Pet = function()
 			window.location.href = url;
 		});
 	}
-	
+
 	function _leEventBindingCompose()
 	{
+		_uploadImage.change(function() {
+			input = this;
+			if (input.files && input.files[0]) {
+				var reader = new FileReader();
+				reader.onload = function(e) {
+					_uploadImagePreview.attr('src', e.target.result);
+					var img = new Image();
+					img.src = e.target.result;
+					img.onload = function () {
+						// var imgElement = document.getElementById('upload_image_preview');
+						var imgInstance = new fabric.Image(img, {
+							left: 100,
+							top: 100,
+							angle: 0,
+							opacity: 1
+						});
+						_canvas.add(imgInstance);
+					}
+
+				}
+				reader.readAsDataURL(input.files[0]); // convert to base64 string
+			}
+		});
+
 		_objectCompose.bind(_event , function(event)
 		{
 			var element = event.target;
@@ -221,7 +252,7 @@ Pet = function()
 			scale = 1;
 			angle = 0;
 			opacity = 1;
-			
+
 			if( $(element).hasClass(_addImageBtn) )
 			{
 				var imageUrl = _imageUrl.val();

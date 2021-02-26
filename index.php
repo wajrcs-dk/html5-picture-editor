@@ -32,7 +32,6 @@ var SITE_URL_APPLICATION = '';
 </script>
 
 <div class="mainWindow">
-	
 	<h2><img src="assets/images/pe.gif" alt="Picture Editor" /></h2>
 	
 	<div class="canvasWindow">
@@ -52,16 +51,13 @@ var SITE_URL_APPLICATION = '';
 			</ul>
 			<div class="tab-content">
 				<div class="tab-pane active" id="object-compose">
-					<p>
-						<strong>Add image</strong>
-					</p>
-					<p class="image_url_p">
-						<input type="text" id="image_url" class="last" placeholder="Enter image url" />
-						<br/>
-						<i>Paste an http url here.</i>
-						<button class="btn add_image_btn" type="button">Add Image</button>
-					</p>
-					<br/>
+                    <p>
+                        <strong>Upload image</strong>
+                    </p>
+                    <p class="image_url_p">
+                        <input class="btn upload_image_btn" type='file' id="upload_image" />
+                        <img id="upload_image_preview" style="height: 40px;" src="#" alt="" />
+                    </p>
 					<p>
 						<strong>Add text</strong>
 					</p>
@@ -85,6 +81,15 @@ var SITE_URL_APPLICATION = '';
 						<br/>
 						<button class="btn add_text_btn" type="button" id="add-text">Add Text</button>
 					</p>
+                    <p>
+                        <strong>Add image</strong>
+                    </p>
+                    <p class="image_url_p">
+                        <input type="text" id="image_url" class="last" placeholder="Enter image url" />
+                        <br/>
+                        <i>Paste an http url here.</i>
+                        <button class="btn add_image_btn" type="button">Add Image</button>
+                    </p>
 				</div>
 				
 				<div class="tab-pane" id="object-controls">
@@ -260,7 +265,6 @@ var SITE_URL_APPLICATION = '';
 	<div class="about">
 		Built using fabric.js, jquery and bootstrap by <a target="_blank" href="http://twitter.com/wajrcs">@wajrcs</a> &nbsp;.&nbsp; <a href="https://github.com/waqar-alamgir/html5-picture-editor/fork">Fork</a> &nbsp;.&nbsp; <iframe width="95px" scrolling="0" height="21px" frameborder="0" allowtransparency="true" style="margin-bottom:-6px;" src="http://ghbtns.com/github-btn.html?user=waqar-alamgir&amp;repo=html5-picture-editor&amp;type=watch&amp;count=true"></iframe>
 	</div>
-	
 </div>
 <script type="text/javascript" src="assets/js/plugins/jquery.js"></script>
 <script type="text/javascript" src="assets/js/plugins/fabric.js"></script>

@@ -101,7 +101,7 @@ body .mainWindow {
 /* line 28, ../scss/master-wa.scss */
 body .canvasWindow {
   position: absolute;
-  top: 70px;
+  top: 80px;
   left: 0;
   bottom: 45px;
   width: 49%;
@@ -138,7 +138,7 @@ body .canvasWindow #loader.show {
 /* line 34, ../scss/master-wa.scss */
 body .controlsWindow {
   position: absolute;
-  top: 54px;
+  top: 80px;
   left: 50%;
   bottom: 45px;
   width: 49%;
@@ -159,7 +159,7 @@ body .controlsWindow .controlsWindowChild .nav {
 }
 /* line 37, ../scss/master-wa.scss */
 body .controlsWindow .controlsWindowChild .tab-content {
-  padding: 20px 12px 12px 12px;
+  padding: 12px 12px 12px 12px;
   border-bottom: 1px solid #ddd;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
@@ -206,7 +206,7 @@ body .controlsWindow .controlsWindowChild button.selected {
 }
 /* line 50, ../scss/master-wa.scss */
 body .canvas-container {
-  margin-top: 20px !important;
+  margin-top: 0px !important;
   border: 1px solid #ddd;
 }
 /* line 51, ../scss/master-wa.scss */

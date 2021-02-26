@@ -67,7 +67,7 @@ $(document).ready(function()
 	);
     
     // Removes my hosting provider div
-    $("body div").last().remove();
+    // $("body div").last().remove();
 });
 
 (function(){
